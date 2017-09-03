@@ -1,11 +1,11 @@
-—
+---
 categories:
-- test
+	- test
 tags:
-- test
+	- test
 date: 2017-09–03
 title: ‘Just a Test’
-—
+---
 
 Testing a post from iOS as well as some markdown syntax via Ulysses. Below is a list:
 
