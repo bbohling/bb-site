@@ -1,6 +1,6 @@
 ---
-# baseURL: "http://localhost:1313/"
-baseURL: "https://test.brandonbohling.com/"
+baseURL: "http://localhost:1313/"
+# baseURL: "https://test.brandonbohling.com/"
 languageCode: "en-us"
 title: "Brandon Bohling"
 theme: "hugo_theme_pickles"
@@ -11,9 +11,9 @@ paginate: 5
 
 menu:
   main:
-    # - identifier: about
-    #   name: About
-    #   url: /about/
+    - identifier: about
+      name: About
+      url: /about/
     - identifier: posts
       name: Posts
       url: /posts/
