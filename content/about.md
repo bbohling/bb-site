@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2017-08-24
-draft: true
+draft: false
 menu: main
 ---
 
