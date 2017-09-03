@@ -1,10 +1,10 @@
 ---
+title: Just a Test
 categories:
 	- test
 tags:
 	- test
-date: 2017-09–03
-title: ‘Just a Test’
+date: 2017-09–0
 ---
 
 Testing a post from iOS as well as some markdown syntax via Ulysses. Below is a list:
