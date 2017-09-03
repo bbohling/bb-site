@@ -1,6 +1,6 @@
 ---
 title: Just a Test
-date: 2017-09-03
+date: 2017-09-02
 categories:
     - test
 tags:
@@ -21,8 +21,8 @@ How about an ordered list:
 
 And now some `code`, which is fine but Ulysses’s implementation of code blocks is less than optimal:
 
-	const foo = ‘something’;
-	const bar = ‘else’;
+	const foo = 'something';
+	const bar = 'else';
 
 ## Whatever
 
