@@ -1,0 +1,599 @@
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            <title>Installing Jekyll on Mac OS X - Brandon Bohling</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.25.1" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Installing Jekyll on Mac OS X"/>
+<meta name="twitter:title" content="Installing Jekyll on Mac OS X"/>
+<meta name="twitter:description" content="In March this year I once again changed blog engines I was using. I switched to Jekyll after reviewing all the usual (and unusual) suspects. I describe most of my reasons1 in my post, Text File Revolution so I won&rsquo;t rehash again, however, I did want to write a little tutorial on how to get Jekyll up and running on your Mac2.
+Pre-Requisite: XCode The easiest way to get a hold of XCode is to download from the Mac App Store."/>
+<meta name="twitter:site" content="@julio_pescador"/>
+
+        <meta property="og:title" content="Installing Jekyll on Mac OS X" />
+<meta property="og:description" content="In March this year I once again changed blog engines I was using. I switched to Jekyll after reviewing all the usual (and unusual) suspects. I describe most of my reasons1 in my post, Text File Revolution so I won&rsquo;t rehash again, however, I did want to write a little tutorial on how to get Jekyll up and running on your Mac2.
+Pre-Requisite: XCode The easiest way to get a hold of XCode is to download from the Mac App Store." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/2011-08-27-installing-jekyll-on-mac/" />
+
+
+
+<meta property="article:published_time" content="2011-08-27T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2011-08-27T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Installing Jekyll on Mac OS X">
+<meta itemprop="description" content="In March this year I once again changed blog engines I was using. I switched to Jekyll after reviewing all the usual (and unusual) suspects. I describe most of my reasons1 in my post, Text File Revolution so I won&rsquo;t rehash again, however, I did want to write a little tutorial on how to get Jekyll up and running on your Mac2.
+Pre-Requisite: XCode The easiest way to get a hold of XCode is to download from the Mac App Store.">
+
+
+<meta itemprop="dateModified" content="2011-08-27T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="592">
+
+
+
+<meta itemprop="keywords" content="blogging,macos," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+<header id="header">
+    
+        <h2><a href="/">Future Imperfect</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://localhost:1313/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://localhost:1313/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    
+    <div id="main">
+        <article class="post">
+            
+            <header>
+    <div class="title">
+        
+            <h1><a href="http://localhost:1313/blog/2011-08-27-installing-jekyll-on-mac/">Installing Jekyll on Mac OS X</a></h1>
+            
+        
+        
+    </div>
+</header>
+
+            <div id="content">
+                
+
+<p>In March this year I once again changed blog engines I was using. I switched to <a href="http://jekyllrb.com/" title="Jekyll - transform your text into a monster">Jekyll</a> after reviewing all the usual (and unusual) suspects. I describe most of my reasons<sup class="footnote-ref" id="fnref:fn-jekyll"><a rel="footnote" href="#fn:fn-jekyll">1</a></sup> in my post, <a href="/2011/03/Text-File-Revolution/" title="Text File Revolution by Brandon Bohling">Text File Revolution</a> so I won&rsquo;t rehash again, however, I did want to write a little tutorial on how to get Jekyll up and running on your Mac<sup class="footnote-ref" id="fnref:fn-contact"><a rel="footnote" href="#fn:fn-contact">2</a></sup>.</p>
+
+<h2 id="pre-requisite-xcode">Pre-Requisite: XCode</h2>
+
+<p>The easiest way to get a hold of XCode is to <a href="http://itunes.apple.com/us/app/xcode/id448457090?mt=12" title="XCode">download from the Mac App Store</a>.</p>
+
+<h2 id="pre-requisite-git">Pre-Requisite: Git</h2>
+
+<p>Git is not absolutely necessary, as RVM (the next pre-req) is available as a tarball, but Git is so popular these days I thought I would provide the instructions.</p>
+
+<ol>
+<li><a href="http://code.google.com/p/git-osx-installer/" title="Git Installer">Download Git</a>. At the time that I wrote this I downloaded the package called, git-1.7.6-x86_64-snow-leopard.dmg, for my MacBook Air.</li>
+<li>Mount (double-click) the DMG file</li>
+<li>Double-click the PKG file to install</li>
+<li>After installation is complete open Terminal</li>
+<li>You need to execute the file, setup git PATH for non-terminal programs.sh, in the DMG file. I find it easiest to do this in Terminal:
+
+<ol>
+<li><code>cd /Volumes</code></li>
+<li><code>cd G</code> (then hit the tab key to autocomplete the volume)</li>
+<li>hit enter</li>
+<li><code>./s</code> (then hit the tab key to autocomplete the shell script file name)</li>
+<li>hit enter to run script</li>
+</ol></li>
+<li>Restart terminal and you now have Git installed</li>
+</ol>
+
+<h2 id="pre-requisite-ruby-version-manager-rvm">Pre-Requisite: Ruby Version Manager (RVM)</h2>
+
+<p>Again, RVM is not absolutely required but RVM does ensure that you do not jack up your system by overwriting the OS version of Ruby with a newer version. RVM allows multiple versions of Ruby to be installed on a system (in your home directory, .rvm) and makes it super simple to change the <em>active</em> version.</p>
+
+<ol>
+<li>Open Terminal and run the command below</li>
+<li><code>bash &lt; &lt;( curl https://rvm.beginrescueend.com/releases/rvm-install-head )</code></li>
+<li>Note the message in the Terminal window after installation, it will be used below.</li>
+<li>Next use your favorite text editor and create a new text file that will be saved to your home directory as .profile. Below is what I did:
+
+<ol>
+<li>Open TextMate</li>
+<li>Copied the text from the message in terminal message into TextMate: <code>[[ -s &quot;/Users/bbohling/.rvm/scripts/rvm&quot; ]] &amp;&amp; source &quot;/Users/bbohling/.rvm/scripts/rvm&quot;</code></li>
+<li>Saved the doc in my home directory (/Users/bbohling/.profile)</li>
+</ol></li>
+<li>Now restart Terminal</li>
+<li>Type <code>rvm help</code>. If installation was successful you will see help instructions.</li>
+</ol>
+
+<h2 id="pre-requisite-ruby">Pre-Requisite: Ruby</h2>
+
+<p>Next we will install Ruby version 1.9.2. At this time Ruby version 1.8.7 comes with OS X (Lion). Since we installed RVM, this step is easy-peasy.</p>
+
+<p>Lion users: You will need to open the .profile file and add the following line: <code>export CC=/usr/bin/gcc-4.2</code>. This sets the default compiler to gcc.</p>
+
+<ol>
+<li>Open Terminal</li>
+<li><code>rvm install 1.9.2</code></li>
+<li>Now that Ruby is installed you can type the following command to use the newer version of Ruby: <code>rvm use 1.9.2</code></li>
+<li>To verify type: <code>ruby -v</code></li>
+<li>To make 1.9.2 the default: <code>rvm --default 1.9.2</code></li>
+</ol>
+
+<h2 id="installing-jekyll">Installing Jekyll</h2>
+
+<p>Finally the star attraction, Jekyll&hellip;which surprisingly is the easiest part. I also use the Jekyll plugin, <a href="https://github.com/pattex/jekyll-tagging" title="jekyll-tagging - Jekyll plugin to automatically generate a tag cloud and tag pages">jekyll-tagging</a>, that provides a better solution (in my opinion) than the built-in categories feature.</p>
+
+<ol>
+<li><code>gem install jekyll</code></li>
+<li><code>gem install jekyll-tagging</code></li>
+</ol>
+
+<p>Jekyll is now installed and you are capable of creating your own static, text-based website. I will try to write a follow-up post that describes how I have set up my templates and configuration. In the meantime, <a href="https://github.com/mojombo/jekyll" title="Jekyll - documentation on GitHub">check out the docs</a>.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:fn-jekyll">I just came across a post by Stephen Ramsay today on the topic, <a href="http://lenz.unl.edu/2011/06/13/back-to-the-roots-web-with-jekyll.html" title="Back to the Roots Web with Jekyll by Stephen Ramsay">Back to the Roots Web with Jekyll</a>.
+ <a class="footnote-return" href="#fnref:fn-jekyll"><sup>[return]</sup></a></li>
+<li id="fn:fn-contact">I performed all of these steps as I went through them myself so they should be accurate. If not, please let me know: brandon [at] bohling [dot] me.
+ <a class="footnote-return" href="#fnref:fn-contact"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+            </div>
+        </article>
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/logo.jpg" alt="Hugo Future Imperfect" /></a>
+                
+            
+            
+                <header>
+                    <h2>Hugo Future Imperfect</h2>
+                    <p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i></p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jpescador" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/julio_pescador" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/technology/">technology</a>
+                                <span style="float:right;">42</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photography/">photography</a>
+                                <span style="float:right;">18</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/journal/">journal</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/sustenance/">sustenance</a>
+                                <span style="float:right;">6</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/travel/">travel</a>
+                                <span style="float:right;">5</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/link/">link</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jpescador" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/julio_pescador" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Brandon Bohling. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

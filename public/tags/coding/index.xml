@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying Angular Using http-server, Nginx, and PM2</title>
+      <link>http://localhost:1313/blog/2016-07-11-ng-nginx-pm2/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016-07-11-ng-nginx-pm2/</guid>
+      <description>Since it took about an hour to put all the pieces together correctly I thought it best to document how I deployed an Angular (version 2) app using http-server, pm2, and nginx. In my case I deployed to an Ubuntu server hosted on DigitalOcean, but these instructions should work the same as long as you have the other components installed correctly.
+ I am not an expert on this topic.</description>
+    </item>
+    
+    <item>
+      <title>A Useful Desktop with Ubersicht</title>
+      <link>http://localhost:1313/blog/2016-06-08-ubersicht/</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016-06-08-ubersicht/</guid>
+      <description>Ubersicht is an OS X utility that allows you to display dynamic (or static) content on your desktop. In the screenshot below I have some static content for a color palette and Git commit standards; all text being selectable. Possibly more interesting though are the other widgets that are always changing. Take the two Strava widgets at the bottom of the screen. One widget allows me to quickly see how my 2016 cycling compares to 2015 and the other just displays some key data from the current year.</description>
+    </item>
+    
+    <item>
+      <title>Forgotten Step</title>
+      <link>http://localhost:1313/blog/2013-08-16-forgotten-step/</link>
+      <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-08-16-forgotten-step/</guid>
+      <description>Even though I have probably set up a new Mac at least a dozen times in the last few years I keep forgetting the most basic step in the world of Terminal&amp;hellip;creating a .bash_profile and adding an export path. This is key because it tells Terminal where to look for executable binaries. Hopefully writing the steps down will make sure I never forget this again.
+ Open TextEdit (or your favorite text editor) Add export PATH=&amp;quot;$HOME/bin:$PATH&amp;quot; on the first line Save in your home directory (~/) as .</description>
+    </item>
+    
+    <item>
+      <title>Parallels and Visual Studio Issue</title>
+      <link>http://localhost:1313/blog/2013-08-01-parallels-and-visual-studio-issue/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-08-01-parallels-and-visual-studio-issue/</guid>
+      <description>After months of experiencing Visual Studio 2012 (running inside Parallels on my Mac) hanging when trying to exit out of the app I took a few minutes to look for a fix. Within a couple of minutes I came across this thread which contained the solution to the issue. Based on the thread it seems like the root cause of this issue is that I am working on solutions that are stored on my Mac, \\psf\Home\pathToSoltion rather than working on solutions that are on the Windows (VM) C drive.</description>
+    </item>
+    
+    <item>
+      <title>Android&#39;s Drop Down Bug</title>
+      <link>http://localhost:1313/blog/2013-06-13-androids-drop-down-bug/</link>
+      <pubDate>Thu, 13 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-06-13-androids-drop-down-bug/</guid>
+      <description>On and off for several days now I have been trying to fix an issue where a drop down list (&amp;lt;select&amp;gt; tag) seems to be disabled on old (version 2.x) Android devices. Apparently this is a known bug with plenty of suggested fixes. Not a single one (or combination) worked for me. I even came across this suggestion since we are using iScroll, but it did not help either.</description>
+    </item>
+    
+    <item>
+      <title>Remove Day Part of Date in URL</title>
+      <link>http://localhost:1313/blog/2013-05-22-remove-day-part-of-date-in-url/</link>
+      <pubDate>Wed, 22 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-05-22-remove-day-part-of-date-in-url/</guid>
+      <description>Since everyone is talking about shipping these days tonight I took the plunge and released my modified blog on a new server. I have been dreading this day because a) the redesign is incomplete and b) there are so many steps in cleanly moving a domain between providers. Of course, immediately after &amp;ldquo;flipping the switch&amp;rdquo; I realized that my old website used URLs like /2011/09/25/Ellie/, but my new configuration was setup to use /2011/09/Ellie/ (notice I no longer have a day in the URL).</description>
+    </item>
+    
+    <item>
+      <title>Underscore Your JavaScript This Moment</title>
+      <link>http://localhost:1313/blog/2013-04-29-underscore-your-javascript-this-moment/</link>
+      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-04-29-underscore-your-javascript-this-moment/</guid>
+      <description>Up until last year it had been many years since I had been a full-time developer. After a year back in the code, I still do not feel as competent as I felt in my prime. So maybe what I am about to share is common knowledge among the developer community, but just in case&amp;hellip;
+If you are developing solutions using JavaScript I highly recommend you check out two helpful libraries: Underscore and Moment.</description>
+    </item>
+    
+    <item>
+      <title>Configuring Homebrew in a Multi-User Setup</title>
+      <link>http://localhost:1313/blog/2013-03-07-configuring-homebrew-in-a-multi-user-setup/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-03-07-configuring-homebrew-in-a-multi-user-setup/</guid>
+      <description>My MacBook Pro is setup with two user accounts: one for personal and one for work. This is certainly not my setup of choice, but if I want to use my own MBP (which is retina) at work then I have to abide by this rule.
+Anyway, this setup caused an issue when I went to do something that required Homebrew. After a little research and testing Leif Hanack had the best answer.</description>
+    </item>
+    
+    <item>
+      <title>Count Lines of Code in a Visual Studio Solution</title>
+      <link>http://localhost:1313/blog/2013-02-11-count-lines-of-code-in-a-visual-studio-solution/</link>
+      <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-02-11-count-lines-of-code-in-a-visual-studio-solution/</guid>
+      <description>At work I was wading through a very old code base and was curious how many lines of code it contained. Not wanting to open the seemingly endless list of files in the solution, I went looking for a quick-n-dirty way to count the lines of code in the solution. Preferring a command-line approach than installing a utility that I would likely rarely use, I found this simple powershell snippet:</description>
+    </item>
+    
+    <item>
+      <title>Making UISwitch Useful in a UITableView with Groups or Sections</title>
+      <link>http://localhost:1313/blog/2012-06-06-making-uiswitch-useful-in-a-uitableview-with-groups-or-sections/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-06-06-making-uiswitch-useful-in-a-uitableview-with-groups-or-sections/</guid>
+      <description>I just had a progasm1. I was creating a UITableView that had multiple groups with multiple rows in each group. Each row had a UISwitch. The intent was to update a price label every time a UISwitch value (on/off) changed. However, figuring out which row and section, trigged the event was not straightforward. After doing some research it seemed like most people were using a hack where they would set the UISwitch tag property to the indexPath.</description>
+    </item>
+    
+    <item>
+      <title>Network Throttle for iOS Development</title>
+      <link>http://localhost:1313/blog/2012-04-18-network-throttle-for-ios-development/</link>
+      <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-04-18-network-throttle-for-ios-development/</guid>
+      <description>All iOS developers must know about this handy-dandy tool by Mike Schrag:
+ speedlimit is a Leopard [works on Lion too] preference pane for limiting your network bandwidth to one of a couple different speeds—768k DSL, Edge, 3G, and Dialup. This is really handy for testing your iPhone app under normal Edge network conditions in the iPhone Simulator. The new version allows you to restrict the slowdown to only a specific set of hosts.</description>
+    </item>
+    
+    <item>
+      <title>How to “View Source” from Safari on an iPad or iPhone</title>
+      <link>http://localhost:1313/blog/2012-03-31-view-source-bookmarklet-ios/</link>
+      <pubDate>Sat, 31 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-03-31-view-source-bookmarklet-ios/</guid>
+      <description>How to “View Source” from Safari on an iPad or iPhone from Ole Michelsen:
+ Add this (or any other) page as a bookmark Then click here to see the bookmarklet code and Select All → Copy Now edit that same bookmark, paste the code you just copied into the URL and name it something like “View Source”  This will most certainly be used. Thanks Ole!</description>
+    </item>
+    
+  </channel>
+</rss>

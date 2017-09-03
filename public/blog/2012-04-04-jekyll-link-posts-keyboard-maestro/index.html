@@ -1,0 +1,535 @@
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            <title>Jekyll Link Posts with Keyboard Maestro - Brandon Bohling</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.25.1" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Jekyll Link Posts with Keyboard Maestro"/>
+<meta name="twitter:title" content="Jekyll Link Posts with Keyboard Maestro"/>
+<meta name="twitter:description" content="This has been a big week of knocking down the Jekyll publishing barriers. Automating the Jekyll publishing process was the first big one. As I stated in that post, it still is not perfect, but much, much better than the default Jekyll behavior. Next, I tweaked Jekyll so I could publish link posts, but what good is that feature unless I can publish them lickety-split? Luckily I remembered that Ben Brooks posted on this topic recently (turns out it was just over a year ago)."/>
+<meta name="twitter:site" content="@julio_pescador"/>
+
+        <meta property="og:title" content="Jekyll Link Posts with Keyboard Maestro" />
+<meta property="og:description" content="This has been a big week of knocking down the Jekyll publishing barriers. Automating the Jekyll publishing process was the first big one. As I stated in that post, it still is not perfect, but much, much better than the default Jekyll behavior. Next, I tweaked Jekyll so I could publish link posts, but what good is that feature unless I can publish them lickety-split? Luckily I remembered that Ben Brooks posted on this topic recently (turns out it was just over a year ago)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/2012-04-04-jekyll-link-posts-keyboard-maestro/" />
+
+
+
+<meta property="article:published_time" content="2012-04-04T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2012-04-04T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Jekyll Link Posts with Keyboard Maestro">
+<meta itemprop="description" content="This has been a big week of knocking down the Jekyll publishing barriers. Automating the Jekyll publishing process was the first big one. As I stated in that post, it still is not perfect, but much, much better than the default Jekyll behavior. Next, I tweaked Jekyll so I could publish link posts, but what good is that feature unless I can publish them lickety-split? Luckily I remembered that Ben Brooks posted on this topic recently (turns out it was just over a year ago).">
+
+
+<meta itemprop="dateModified" content="2012-04-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="232">
+
+
+
+<meta itemprop="keywords" content="blogging,workflow," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+<header id="header">
+    
+        <h2><a href="/">Future Imperfect</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://localhost:1313/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://localhost:1313/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    
+    <div id="main">
+        <article class="post">
+            
+            <header>
+    <div class="title">
+        
+            <h1><a href="http://localhost:1313/blog/2012-04-04-jekyll-link-posts-keyboard-maestro/">Jekyll Link Posts with Keyboard Maestro</a></h1>
+            
+        
+        
+    </div>
+</header>
+
+            <div id="content">
+                
+
+<p>This has been a big week of knocking down the <a href="http://jekyllrb.com/" title="Jekyll Blogging Platform">Jekyll</a> publishing barriers. <a href="/2012/03/Automating-Jekyll/" title="Automating Jekyll by Brandon Bohling">Automating the Jekyll publishing process</a> was the first big one. As I stated in <a href="/2012/03/Automating-Jekyll/" title="Automating Jekyll by Brandon Bohling">that post</a>, it still is not perfect, but much, much better than the default Jekyll <em>behavior</em>. Next, I tweaked Jekyll so I could publish <a href="/2012/04/Link-Posts-With-Jekyll/" title="Link Posts with Jekyll by Brandon Bohling">link posts</a>, but what good is that feature unless I can publish them lickety-split? Luckily I remembered that <a href="http://benbrooks.me/" title="Ben Brooks">Ben Brooks</a> <a href="http://brooksreview.net/2011/03/cmd-one/" title="How I Blow with Keyboard Maestro and TextMate by Ben Brooks">posted on this topic</a> recently (turns out it was just over a year ago).</p>
+
+<p>This is the macro I came up with taking <a href="http://brooksreview.net/2011/03/cmd-one/" title="How I Blow with Keyboard Maestro and TextMate by Ben Brooks">Ben&rsquo;s lead</a>:</p>
+
+<p><img src="/uploads/2012/04/KeyboardMaestroLinkPost.jpg" alt="Keyboard Maestro Macro for Link Posts" title="Keyboard Maestro Macro for Link Posts" /></p>
+
+<h2 id="the-workflow">The Workflow</h2>
+
+<p>When I am viewing a web page in Safari that I want to link to I do the following:</p>
+
+<ol>
+<li>Highlight any text I want to quote.</li>
+<li>Hit my Keyboard Maestro hot key to launch the <em>Link Post</em> macro</li>
+</ol>
+
+<p>That is it. After using the above 2 steps I got the following link post <em>start</em> for my first link post, <a href="/2012/03/How-to-find-hidden-files-OSX/" title="How to find the hidden files on Mac OS X by Brandon Bohling">How to find the hidden files on Mac OS X</a>:</p>
+
+<p><img src="/uploads/2012/04/KMLP-Sample.jpg" alt="Sample Output from Keyboard Maestro Link Post Macro" title="Sample Output from Keyboard Maestro Link Post Macro" /></p>
+
+<p>Again, this is not perfect. Currently the macro is for Safari only. I also use Google Chrome (though mostly for Flash-based sites) so I need to create a Chrome-specific macro. Or better yet (if possible), tweak the macro to copy the relevant info of whichever browser is in the foreground. Hopefully someone much smarter than me will post a solution. Let the online discussions begin!</p>
+
+            </div>
+        </article>
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/logo.jpg" alt="Hugo Future Imperfect" /></a>
+                
+            
+            
+                <header>
+                    <h2>Hugo Future Imperfect</h2>
+                    <p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i></p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jpescador" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/julio_pescador" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/technology/">technology</a>
+                                <span style="float:right;">42</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photography/">photography</a>
+                                <span style="float:right;">18</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/journal/">journal</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/sustenance/">sustenance</a>
+                                <span style="float:right;">6</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/travel/">travel</a>
+                                <span style="float:right;">5</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/link/">link</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jpescador" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/julio_pescador" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Brandon Bohling. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

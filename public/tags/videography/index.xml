@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videography on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/videography/</link>
+    <description>Recent content in Videography on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Oct 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/videography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Final Cut Pro X on the MacBook Air: A Follow-Up</title>
+      <link>http://localhost:1313/blog/2011-10-30-fcpx-mba-follow-up/</link>
+      <pubDate>Sun, 30 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-10-30-fcpx-mba-follow-up/</guid>
+      <description>My post, Final Cut Pro X on a MacBook Air, has received a surprising amount of traffic. So I thought I would provide a brief follow-up that covers why I purchased FCP X and how it has been performing on my MacBook Air.
+FCP X vs. iMovie Like I mentioned before, I am no videographer and I probably have no real reason to spend $300 on video editing software. iMovie is incredibly simple to use and can make great videos fast, but it seemed hard to do simple tasks I wanted to do and lacked features I was after.</description>
+    </item>
+    
+    <item>
+      <title>Final Cut Pro X on a MacBook Air</title>
+      <link>http://localhost:1313/blog/2011-09-05-fcpx-mba/</link>
+      <pubDate>Mon, 05 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-09-05-fcpx-mba/</guid>
+      <description>When it comes to video editing I am a complete novice. A few supporting facts:
+ I have been a Vimeo Plus member since November 2007 yet I have only posted 65 videos. All have been posted with the simplest of tools: iMovie, iMovie for iOS, Vimeo for iOS, etc. I purchased Final Cut Pro X on July 2 and today was the first time I used it. Today I used about 0.</description>
+    </item>
+    
+    <item>
+      <title>Still Got It</title>
+      <link>http://localhost:1313/blog/2011-03-27-still-got-it/</link>
+      <pubDate>Sun, 27 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-03-27-still-got-it/</guid>
+      <description>Friday at 6:00 PM we decided to see if there were any rooms available at the Surfsand Resort in Cannon Beach. This was while we were still at Bryce&amp;rsquo;s swimming lessons. By 8:10 PM Denise was checking us into our room at the resort. Yeah, even with a 4 year old&amp;hellip;we still got it!
+All photos and videos taken with an iPhone 4 or iPad 2. Video created with iMovie for the iPad.</description>
+    </item>
+    
+    <item>
+      <title>Online Photo Sharing and Common Craft</title>
+      <link>http://localhost:1313/blog/2008-01-11-online-photo-sharing-common-craft/</link>
+      <pubDate>Fri, 11 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-11-online-photo-sharing-common-craft/</guid>
+      <description>As I have mentioned in the past, I have typically taken full control over both web presence and content management (mainly photos). However, I am exploring the notion of leveraging photo sharing sites mainly for backups and video sites so I don’t have to take up a lot of hard drive space. I will have a much more in-depth post soon on this topic, but I came across this video from one of my favorite tutorial websites, Common Craft, that I just had to share.</description>
+    </item>
+    
+  </channel>
+</rss>

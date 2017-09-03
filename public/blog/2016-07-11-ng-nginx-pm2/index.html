@@ -1,0 +1,621 @@
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            <title>Deploying Angular Using http-server, Nginx, and PM2 - Brandon Bohling</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.25.1" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Deploying Angular Using http-server, Nginx, and PM2"/>
+<meta name="twitter:title" content="Deploying Angular Using http-server, Nginx, and PM2"/>
+<meta name="twitter:description" content="Since it took about an hour to put all the pieces together correctly I thought it best to document how I deployed an Angular (version 2) app using http-server, pm2, and nginx. In my case I deployed to an Ubuntu server hosted on DigitalOcean, but these instructions should work the same as long as you have the other components installed correctly.
+ I am not an expert on this topic."/>
+<meta name="twitter:site" content="@julio_pescador"/>
+
+        <meta property="og:title" content="Deploying Angular Using http-server, Nginx, and PM2" />
+<meta property="og:description" content="Since it took about an hour to put all the pieces together correctly I thought it best to document how I deployed an Angular (version 2) app using http-server, pm2, and nginx. In my case I deployed to an Ubuntu server hosted on DigitalOcean, but these instructions should work the same as long as you have the other components installed correctly.
+ I am not an expert on this topic." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/2016-07-11-ng-nginx-pm2/" />
+
+
+
+<meta property="article:published_time" content="2016-07-11T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-07-11T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Deploying Angular Using http-server, Nginx, and PM2">
+<meta itemprop="description" content="Since it took about an hour to put all the pieces together correctly I thought it best to document how I deployed an Angular (version 2) app using http-server, pm2, and nginx. In my case I deployed to an Ubuntu server hosted on DigitalOcean, but these instructions should work the same as long as you have the other components installed correctly.
+ I am not an expert on this topic.">
+
+
+<meta itemprop="dateModified" content="2016-07-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="630">
+
+
+
+<meta itemprop="keywords" content="angular,nginx,pm2,coding," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+<header id="header">
+    
+        <h2><a href="/">Future Imperfect</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://localhost:1313/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://localhost:1313/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    
+    <div id="main">
+        <article class="post">
+            
+            <header>
+    <div class="title">
+        
+            <h1><a href="http://localhost:1313/blog/2016-07-11-ng-nginx-pm2/">Deploying Angular Using http-server, Nginx, and PM2</a></h1>
+            
+        
+        
+    </div>
+</header>
+
+            <div id="content">
+                
+
+<p>Since it took about an hour to put all the pieces together correctly I thought it best to document how I deployed an <a href="https://angular.io/">Angular</a> (version 2) app using <a href="https://github.com/indexzero/http-server">http-server</a>, <a href="https://github.com/Unitech/pm2">pm2</a>, and nginx. In my case I deployed to an Ubuntu server hosted on <a href="https://www.digitalocean.com/">DigitalOcean</a>, but these instructions should work the same as long as you have the other components installed correctly.</p>
+
+<blockquote>
+<p>I am not an expert on this topic. Like most people, I am learning as I go. If you think I am doing something stupid please let me know.</p>
+</blockquote>
+
+<h2 id="pre-reqs">Pre-reqs</h2>
+
+<p>Let&rsquo;s get the easy stuff out of the way&hellip;</p>
+
+<h3 id="http-server">http-server</h3>
+
+<p>First, I installed http-server to serve my Angular app. I already had node/npm installed on my remote server, so I simply ran the follow command and was done.</p>
+
+<pre><code class="language-shell">npm install http-server -g
+</code></pre>
+
+<h3 id="angular">Angular</h3>
+
+<p>I used the <a href="https://github.com/angular/angular-cli">angular-cli</a> to create an app. When the app was done<sup class="footnote-ref" id="fnref:fn-1"><a rel="footnote" href="#fn:fn-1">1</a></sup>, I created a build using:</p>
+
+<pre><code class="language-shell">ng build -prod
+</code></pre>
+
+<p>After the build was complete, I copied the contents of the <code>dist/</code> directory to my remote server. Easy part, done.</p>
+
+<h2 id="nginx">Nginx</h2>
+
+<p>I am going to assume that the only reason you have made it this far is because you already have nginx installed on your server.</p>
+
+<p>Nginx requires a <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04">server block</a> for the Angular app so for me, this meant adding a file to the <code>/etc/nginx/sites-available/</code> directory on my remote server. I am running multiple web sites so I created a new file called: <code>ng2.cooldomain.com</code>. Before I forgot, I also created a symbolic link to the <code>sites-enabled</code> directory:</p>
+
+<pre><code class="language-shell">ln -s /etc/nginx/sites-available/ng2.cooldomain.com /etc/nginx/sites-enabled/ng2.cooldomain.com
+</code></pre>
+
+<p>This is the configuration I ended up with<sup class="footnote-ref" id="fnref:fn-2"><a rel="footnote" href="#fn:fn-2">2</a></sup>:</p>
+
+<pre><code class="language-nginx">server {
+    listen 80;
+    server_name ng2.cooldomain.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+</code></pre>
+
+<p><strong>Two points of interest:</strong></p>
+
+<ol>
+<li>You may use an IP address or some other convention for the <code>server_name</code> depending on your setup.</li>
+<li>Depending on how you serve (e.g., different port) the Angular app you may have a different <code>proxy_pass</code> as well.</li>
+</ol>
+
+<p><strong>Pro Tip</strong> two commands to remember when messing with nginx: <code>sudo nginx -t</code> will test your configuration and run <code>sudo service nginx restart</code> after saving changes.
+{: .notice&ndash;info}</p>
+
+<h2 id="pm2">PM2</h2>
+
+<p>Finally, I wanted to use pm2 to keep the new Angular site up and running. Over time I have created a collection of apps. Executing a pm2 command each time I finished an app has not been a big deal. Knowing if something goes wrong I would have to start them all again however is a different story. I went looking for a way to configure all the apps in a single config file. Of course pm2 has such a feature and I found the <a href="http://pm2.keymetrics.io/docs/usage/application-declaration/">Application declaration</a> documentation. Below are the important bits, including a snippet for another app just to demonstrate how you can configure multiple apps. I added the JSON below in a file called <code>process.json</code>.</p>
+
+<pre><code class="language-json">{
+    &quot;apps&quot;: [
+        {
+            &quot;name&quot;: &quot;angular&quot;,
+            &quot;cwd&quot;: &quot;/var/www/ng2.cooldomain.com&quot;,
+            &quot;args&quot;: &quot;-p 8080 -d false&quot;,
+            &quot;script&quot;: &quot;/root/.nvm/v4.2.6/bin/http-server&quot;
+        },
+        {
+            &quot;name&quot;: &quot;api&quot;,
+            &quot;cwd&quot;: &quot;/var/www/api.cooldomain.com&quot;,
+            &quot;script&quot;: &quot;app.js&quot;,
+            &quot;watch&quot;: true
+        }
+    ]
+}
+</code></pre>
+
+<p>With all that out of the way I was finally able to test it all out:</p>
+
+<pre><code class="language-shell">pm2 start /path/to/process.json
+</code></pre>
+
+<h2 id="wrap-up">Wrap-up</h2>
+
+<p>I am happy everything is up and running, but please ping me with suggestions on improving my setup.  It&rsquo;s not like I&rsquo;m running anything important, so a true production setup isn&rsquo;t required. However, I will say that I went through all this just to deploy a simple flash card game for my nine-year-old son. The app took me less than 30-minutes to write. The server setup and this post took me considerably longer.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:fn-1">Are apps <em>ever</em> done?
+ <a class="footnote-return" href="#fnref:fn-1"><sup>[return]</sup></a></li>
+<li id="fn:fn-2">I am sure I can add some more clever bits to do some caching and gzip&rsquo;ing, but I have to save something to learn later.
+ <a class="footnote-return" href="#fnref:fn-2"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+            </div>
+        </article>
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/logo.jpg" alt="Hugo Future Imperfect" /></a>
+                
+            
+            
+                <header>
+                    <h2>Hugo Future Imperfect</h2>
+                    <p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i></p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jpescador" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/julio_pescador" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/technology/">technology</a>
+                                <span style="float:right;">42</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/photography/">photography</a>
+                                <span style="float:right;">18</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/journal/">journal</a>
+                                <span style="float:right;">13</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/sustenance/">sustenance</a>
+                                <span style="float:right;">6</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/travel/">travel</a>
+                                <span style="float:right;">5</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/link/">link</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jpescador" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/julio_pescador" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Brandon Bohling. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

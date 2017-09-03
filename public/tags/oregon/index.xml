@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oregon on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/oregon/</link>
+    <description>Recent content in Oregon on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/oregon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oregon Brewers Festival</title>
+      <link>http://localhost:1313/blog/2016-07-30-brewers-festival/</link>
+      <pubDate>Sat, 30 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016-07-30-brewers-festival/</guid>
+      <description>This year was the 29th annual Oregon Brewers Festival. Good times.</description>
+    </item>
+    
+  </channel>
+</rss>

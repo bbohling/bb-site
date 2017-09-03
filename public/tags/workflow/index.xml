@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/workflow/</link>
+    <description>Recent content in Workflow on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jekyll Link Posts with Keyboard Maestro</title>
+      <link>http://localhost:1313/blog/2012-04-04-jekyll-link-posts-keyboard-maestro/</link>
+      <pubDate>Wed, 04 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-04-04-jekyll-link-posts-keyboard-maestro/</guid>
+      <description>This has been a big week of knocking down the Jekyll publishing barriers. Automating the Jekyll publishing process was the first big one. As I stated in that post, it still is not perfect, but much, much better than the default Jekyll behavior. Next, I tweaked Jekyll so I could publish link posts, but what good is that feature unless I can publish them lickety-split? Luckily I remembered that Ben Brooks posted on this topic recently (turns out it was just over a year ago).</description>
+    </item>
+    
+    <item>
+      <title>Automating Jekyll</title>
+      <link>http://localhost:1313/blog/2012-03-31-automating-jekyll/</link>
+      <pubDate>Sat, 31 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-03-31-automating-jekyll/</guid>
+      <description>March 06, 2012, marked the one year anniversary of this site being driven by Jekyll. I will not rehash my reasonings here as I explained myself already in the Text File Revolution post, but I do want to reflect for a moment&amp;hellip;
+Since switching to Jekyll I have written a mere 28 times; a personal worst in my 9 years of blogging1. I would love to blame it on a busy life2, but that is a cop-out.</description>
+    </item>
+    
+    <item>
+      <title>Digital Darkroom Tip: Clarify and Sharpen</title>
+      <link>http://localhost:1313/blog/2006-01-13-digital-darkroom-tip-clarify-sharpen/</link>
+      <pubDate>Fri, 13 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2006-01-13-digital-darkroom-tip-clarify-sharpen/</guid>
+      <description>Several years ago one of my fellow photographers, Cecil Walker, showed me an easy, but priceless photo editing tip. I wish one of us could take credit for this, but unfortunately we can’t—nonetheless I’m glad Cecil came across the article. I’m sorry I do not remember where, so apologies to the original “founder”. All photographers, on occasion (ha), take a flat photo…I know, shocking. With a quick 2–step tweak the flat photo can be reborn into the image you really witnessed.</description>
+    </item>
+    
+  </channel>
+</rss>

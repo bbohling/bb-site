@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/technology/</link>
+    <description>Recent content in Technology on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Final Cut Pro X on a MacBook Air</title>
+      <link>http://localhost:1313/blog/2011-09-05-fcpx-mba/</link>
+      <pubDate>Mon, 05 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-09-05-fcpx-mba/</guid>
+      <description>When it comes to video editing I am a complete novice. A few supporting facts:
+ I have been a Vimeo Plus member since November 2007 yet I have only posted 65 videos. All have been posted with the simplest of tools: iMovie, iMovie for iOS, Vimeo for iOS, etc. I purchased Final Cut Pro X on July 2 and today was the first time I used it. Today I used about 0.</description>
+    </item>
+    
+    <item>
+      <title>Apps on MacBook Air 30 Days Later</title>
+      <link>http://localhost:1313/blog/2011-08-26-apps-30-days-later/</link>
+      <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-08-26-apps-30-days-later/</guid>
+      <description>In my previous post, Apps I will install on New MacBook Air, I highlight the apps that I intended on installing on my new MacBook Air. It has now been 30 days since I first laid hands on the new system, so what better time to report what I REALLY installed.
+Before Dropbox it could take a couple of days to get a new computer set up with all of your goodies.</description>
+    </item>
+    
+    <item>
+      <title>Apps I will install on New MacBook Air</title>
+      <link>http://localhost:1313/blog/2011-07-26-install-first/</link>
+      <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-07-26-install-first/</guid>
+      <description>In a previous post, What Would You Buy First?, I highlight the apps I would buy first if I had to start all over today. In this post I will outline the apps I will be installing on a new MacBook Air that arrives today. One data point to note: I am cutting my drive space in half (to 256GB), so this list may be slightly different if it were a new iMac.</description>
+    </item>
+    
+    <item>
+      <title>Evolution of Change</title>
+      <link>http://localhost:1313/blog/2011-06-09-evolution-of-change/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-06-09-evolution-of-change/</guid>
+      <description>The tech world has generated a ton of content about WWDC since the Monday. If you want to know what the really smart people are saying about the event I suggest you start by reading Ben Brook&amp;rsquo;s WWDC: The Big Stuff or simply catch the video highlights of the 117-minute keynote in 8 minutes.
+I would like to share my thoughts on iCloud and its implications in context of the evolution of the file system.</description>
+    </item>
+    
+    <item>
+      <title>What Would You Buy First?</title>
+      <link>http://localhost:1313/blog/2011-05-04-buy-first/</link>
+      <pubDate>Wed, 04 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-05-04-buy-first/</guid>
+      <description>Today Ben Brooks posted his list of apps he would buy first if he had to start all over again. So why not join in on that fun?
+My list of apps I would buy first:
+ Dropbox - duh Backblaze - backup computer and 2 Drobos 1Password - manage all passwords Aperture - photo management and editing OmniFocus - manage my tasks OmniGraffle - draw pretty pictures (I&amp;rsquo;m a software architect) Sparrow - Gmail client Reeder - RSS reader TextMate - robust text editor FontCase - manage my font fetish LittleSnapper - take/manage screenshots Acorn - cheap, lightweight image editor (I no longer use Adobe Photoshop even though I have CS5) Alfred - launcher/productivity app TextExpander - excellent timesaver, just get it SuperDuper!</description>
+    </item>
+    
+    <item>
+      <title>The Power of Lazy Photo Editing</title>
+      <link>http://localhost:1313/blog/2011-04-11-photo-edit-lazy/</link>
+      <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-04-11-photo-edit-lazy/</guid>
+      <description>We are all very, very busy these days. We fill our time with work, friends, and family. Any spare time we fill with hobbies, TV, and of course the Internet. Many of these activities lead to consuming and generating copious amounts of digital content as I have mentioned before. It is the generating of so much digital content that is overwhelming to me. It leads to more time to manage the content.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll 30 Days Later</title>
+      <link>http://localhost:1313/blog/2011-04-09-jekyll-30-days-later/</link>
+      <pubDate>Sat, 09 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-04-09-jekyll-30-days-later/</guid>
+      <description>It has now been over a month since I started my Text File Revolution using Jekyll as my vehicle. This will be my seventh post using Jekyll and my still evolving workflow. So why not share my experience so far?
+Jekyll Out of the Box Jekyll is not your normal blogging system where you can simply write your post in a browser or use a blogging tool like MarsEdit. Jekyll does not store your posts in a database nor does it serve content dynamically.</description>
+    </item>
+    
+    <item>
+      <title>Lessn and Comments</title>
+      <link>http://localhost:1313/blog/2011-03-25-lessn-comments/</link>
+      <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-03-25-lessn-comments/</guid>
+      <description>I really like how Jon Hicks handles comments on Hicksdesign. Instead of allowing direct comments on his blog he provides a link that pre-populates a tweet. I&amp;rsquo;m not a fan of blog comments and many agree. Alex Payne states why best:
+ For most sites, though, comments are worse than useless. The anonymity of the Internet inspires hit-and-run attacks, unintelligible ramblings, and truckloads of spam.
+ So I wanted to implement a similar feature on this site.</description>
+    </item>
+    
+    <item>
+      <title>Text File Revolution</title>
+      <link>http://localhost:1313/blog/2011-03-06-text-file-revolution/</link>
+      <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-03-06-text-file-revolution/</guid>
+      <description>I am like any other technologist (ok, geek) out there&amp;hellip;I love tinkering with new stuff1. For the most part I wouldn&amp;rsquo;t change this about me; it generates intense passion in my daily life as well as serving me well in my career. However, there are certainly pitfalls I inevitably fall into time and time again. The most prevalent is my constant tinkering with my online presence.
+A Brief History of My Online Life Since 1995 I have had some sort of website.</description>
+    </item>
+    
+    <item>
+      <title>How to Keep Your Husband Engaged in Furniture Decisions</title>
+      <link>http://localhost:1313/blog/2011-02-21-how-to-keep-your-husband-engaged-in-furniture-decisions/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-02-21-how-to-keep-your-husband-engaged-in-furniture-decisions/</guid>
+      <description>We have lived in our house for over five years now and yet we still do not have a proper living room. Of course, we have a living room, but not one that entices people to sit down and relax. This is horribly unfortunate since the room has a huge picture window that has a fabulous view of the Coast Range; one of the two main selling points of the house (huge kitchen was another one).</description>
+    </item>
+    
+    <item>
+      <title>How My iPhone 4 Killed My Canon 5D Mark II: Take 2</title>
+      <link>http://localhost:1313/blog/2010-08-17-iphone-killed-canon-5d-mark-ii-take-2/</link>
+      <pubDate>Tue, 17 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2010-08-17-iphone-killed-canon-5d-mark-ii-take-2/</guid>
+      <description>Note: this was originally posted here.
+Denise and I received our iPhone 4s on Day 1. The very day we left for a long weekend at Crater Lake. And the weekend after that we spent 10 days on in Door County. In a typical month this year we take around 800 photos (and that is WAY down from previous years) with our Canon 5D Mark II. On vacations we typically take 1000+ photos.</description>
+    </item>
+    
+    <item>
+      <title>My iPhone 4 Killed My Canon 5D Mark II</title>
+      <link>http://localhost:1313/blog/2010-08-07-my-iphone-4-killed-my-canon-5d-mark-ii/</link>
+      <pubDate>Sat, 07 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2010-08-07-my-iphone-4-killed-my-canon-5d-mark-ii/</guid>
+      <description>I am so very frustrated right now. I just spent 30 minutes typing up this post on my iPad and only the photo came through&amp;hellip;NONE of the text. Well now I have a new post, &amp;ldquo;Why I Threw My iPad Out the Window!&amp;rdquo;
+I&amp;rsquo;ll try to rewrite about this topic later. It only took me a month to write it in the first place. It will probably take another 2 months for me to muster up the will power to rewrite about this.</description>
+    </item>
+    
+    <item>
+      <title>Is it best to leverage social networks</title>
+      <link>http://localhost:1313/blog/2008-01-22-best-leverage-social-networks/</link>
+      <pubDate>Tue, 22 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-22-best-leverage-social-networks/</guid>
+      <description>For years I have been developing my own web sites and hosting my own content (text, photos, and videos). I guess I took this approach mainly so I would have full control over everything&amp;hellip;us developers can be a little power hungry at times. Sometimes I have different sites (URLs) with specific content for each and sometimes I cram everything together, but before I go into any further details, let&amp;rsquo;s look at some of the purposes of my site(s).</description>
+    </item>
+    
+    <item>
+      <title>Online Photo Sharing and Common Craft</title>
+      <link>http://localhost:1313/blog/2008-01-11-online-photo-sharing-common-craft/</link>
+      <pubDate>Fri, 11 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-11-online-photo-sharing-common-craft/</guid>
+      <description>As I have mentioned in the past, I have typically taken full control over both web presence and content management (mainly photos). However, I am exploring the notion of leveraging photo sharing sites mainly for backups and video sites so I don’t have to take up a lot of hard drive space. I will have a much more in-depth post soon on this topic, but I came across this video from one of my favorite tutorial websites, Common Craft, that I just had to share.</description>
+    </item>
+    
+    <item>
+      <title>Got ExpressionEngine? Need a sitemap index?</title>
+      <link>http://localhost:1313/blog/2008-01-10-got-expressionengine-need-sitemap-index/</link>
+      <pubDate>Thu, 10 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-10-got-expressionengine-need-sitemap-index/</guid>
+      <description>If you have been developing web sites for a while you already undoubtedly know the importance of sitemaps. Most blog software, such as Wordpress, provide plugins to auto generate sitemaps, but I could not find one for ExpressionEngine so I am here to explain how to auto generate your own with ExpressionEngine.
+To create a simple sitemap for a SINGLE blog in ExpressionEngine you can follow the instructions explained here.</description>
+    </item>
+    
+    <item>
+      <title>ExpressionEngine, AN Hosting, and Customer Support</title>
+      <link>http://localhost:1313/blog/2008-01-09-expressionengine-an-hosting-customer-support/</link>
+      <pubDate>Wed, 09 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-09-expressionengine-an-hosting-customer-support/</guid>
+      <description>Most often I am willing to pay a premium for a product or service that has excellent customer support. This is one (of many) reasons I buy Apple products. On a couple of occasions I have had a small issue with one of their products, I walk into a store, and they have immediately replaced it with a brand new product…it doesn’t get any better than that does it?
+For the last several months I have been working on this web site as well as switching hosting providers.</description>
+    </item>
+    
+    <item>
+      <title>How We Got Here</title>
+      <link>http://localhost:1313/blog/2008-01-02-how-we-got-here/</link>
+      <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-02-how-we-got-here/</guid>
+      <description>Much has changed on the Web since I created my first web site in 1995. If only I would have taken screenshots my first site (or any of the hundreds that came after). Oh the days of the simple HTML tags: H1, p, img, br, etc. No Javascript, no CSS, no tables that I remember. Now, over a decade later, there are so many technologies a web developer/designer can use! There are hundreds (thousands?</description>
+    </item>
+    
+  </channel>
+</rss>

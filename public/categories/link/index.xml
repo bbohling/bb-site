@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Link on Brandon Bohling</title>
+    <link>http://localhost:1313/categories/link/</link>
+    <description>Recent content in Link on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Feb 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/link/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Count Lines of Code in a Visual Studio Solution</title>
+      <link>http://localhost:1313/blog/2013-02-11-count-lines-of-code-in-a-visual-studio-solution/</link>
+      <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-02-11-count-lines-of-code-in-a-visual-studio-solution/</guid>
+      <description>At work I was wading through a very old code base and was curious how many lines of code it contained. Not wanting to open the seemingly endless list of files in the solution, I went looking for a quick-n-dirty way to count the lines of code in the solution. Preferring a command-line approach than installing a utility that I would likely rarely use, I found this simple powershell snippet:</description>
+    </item>
+    
+    <item>
+      <title>Network Throttle for iOS Development</title>
+      <link>http://localhost:1313/blog/2012-04-18-network-throttle-for-ios-development/</link>
+      <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-04-18-network-throttle-for-ios-development/</guid>
+      <description>All iOS developers must know about this handy-dandy tool by Mike Schrag:
+ speedlimit is a Leopard [works on Lion too] preference pane for limiting your network bandwidth to one of a couple different speeds—768k DSL, Edge, 3G, and Dialup. This is really handy for testing your iPhone app under normal Edge network conditions in the iPhone Simulator. The new version allows you to restrict the slowdown to only a specific set of hosts.</description>
+    </item>
+    
+  </channel>
+</rss>

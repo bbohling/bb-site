@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/blogging/</link>
+    <description>Recent content in Blogging on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Here We Go Again</title>
+      <link>http://localhost:1313/blog/2016-06-01-here-we-go-again/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016-06-01-here-we-go-again/</guid>
+      <description>Feeling the urge to blog again, but of course I cannot just write. First, I have to play with the many different blogging engines. Then pick one. Then research all the ways I can tweak it and optimize my workflow. Then try to migrate my many years of blogging (I recently found &amp;ldquo;blogging&amp;rdquo; content from a website I did back in 1997&amp;hellip;wow are those images low-res). Finally, start writing. Here&amp;rsquo;s to completing step 1.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll Link Posts with Keyboard Maestro</title>
+      <link>http://localhost:1313/blog/2012-04-04-jekyll-link-posts-keyboard-maestro/</link>
+      <pubDate>Wed, 04 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-04-04-jekyll-link-posts-keyboard-maestro/</guid>
+      <description>This has been a big week of knocking down the Jekyll publishing barriers. Automating the Jekyll publishing process was the first big one. As I stated in that post, it still is not perfect, but much, much better than the default Jekyll behavior. Next, I tweaked Jekyll so I could publish link posts, but what good is that feature unless I can publish them lickety-split? Luckily I remembered that Ben Brooks posted on this topic recently (turns out it was just over a year ago).</description>
+    </item>
+    
+    <item>
+      <title>Link Posts with Jekyll</title>
+      <link>http://localhost:1313/blog/2012-04-03-link-posts-with-jekyll/</link>
+      <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-04-03-link-posts-with-jekyll/</guid>
+      <description>Now that I have Jekyll publishing automated, why not do link posts? For one, Jekyll does not support link posts out of the box. However, Tuan Anh figured out how to tweak Jekyll to support link posts: Posting Link Post in Jekyll by Tuan Anh Tran.
+This is the code I used to modify my post.html file (in the _layouts directory):
+ &amp;#123;&amp;#37; if page.link &amp;#37;&amp;#125; &amp;lt;h2&amp;gt;&amp;lt;a href=&#34;&amp;#123;&amp;#123; page.link &amp;#125;&amp;#125;&#34;&amp;gt;&amp;#123;&amp;#123; page.</description>
+    </item>
+    
+    <item>
+      <title>Automating Jekyll</title>
+      <link>http://localhost:1313/blog/2012-03-31-automating-jekyll/</link>
+      <pubDate>Sat, 31 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-03-31-automating-jekyll/</guid>
+      <description>March 06, 2012, marked the one year anniversary of this site being driven by Jekyll. I will not rehash my reasonings here as I explained myself already in the Text File Revolution post, but I do want to reflect for a moment&amp;hellip;
+Since switching to Jekyll I have written a mere 28 times; a personal worst in my 9 years of blogging1. I would love to blame it on a busy life2, but that is a cop-out.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll Automated: First Test</title>
+      <link>http://localhost:1313/blog/2012-03-29-jekyll-automated-test/</link>
+      <pubDate>Thu, 29 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-03-29-jekyll-automated-test/</guid>
+      <description>This post is testing a new feature that I have added to my Jekyll workflow. I have created an Automator workflow (that is actually a folder action) that assists in auto publishing my blog posts. This new setup not only removes steps in my blogging workflow, but also allows me to post from my iOS devices as well. Additionally, I am testing the use of dictation on my iPad to see if it will further reduce the barriers of blogging.</description>
+    </item>
+    
+    <item>
+      <title>Installing Jekyll on Mac OS X</title>
+      <link>http://localhost:1313/blog/2011-08-27-installing-jekyll-on-mac/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-08-27-installing-jekyll-on-mac/</guid>
+      <description>In March this year I once again changed blog engines I was using. I switched to Jekyll after reviewing all the usual (and unusual) suspects. I describe most of my reasons1 in my post, Text File Revolution so I won&amp;rsquo;t rehash again, however, I did want to write a little tutorial on how to get Jekyll up and running on your Mac2.
+Pre-Requisite: XCode The easiest way to get a hold of XCode is to download from the Mac App Store.</description>
+    </item>
+    
+    <item>
+      <title>Website Update</title>
+      <link>http://localhost:1313/blog/2011-05-12-website-update/</link>
+      <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-05-12-website-update/</guid>
+      <description>Instead of working on My Everyday Things project last night I spent over two hours captivated by slide decks from Note &amp;amp; Point. That small diversion led me to rethink the font I was using on this site&amp;hellip;and once I started thinking about fonts it was all over.
+After hours and hours (and hours) of dinking around I decided to try Google&amp;rsquo;s web fonts versus me hosting them. We&amp;rsquo;ll see how that goes&amp;hellip;it slightly goes against the simplicity that I am after with this site, but I still feel compelled to try.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll 30 Days Later</title>
+      <link>http://localhost:1313/blog/2011-04-09-jekyll-30-days-later/</link>
+      <pubDate>Sat, 09 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-04-09-jekyll-30-days-later/</guid>
+      <description>It has now been over a month since I started my Text File Revolution using Jekyll as my vehicle. This will be my seventh post using Jekyll and my still evolving workflow. So why not share my experience so far?
+Jekyll Out of the Box Jekyll is not your normal blogging system where you can simply write your post in a browser or use a blogging tool like MarsEdit. Jekyll does not store your posts in a database nor does it serve content dynamically.</description>
+    </item>
+    
+    <item>
+      <title>Got ExpressionEngine? Need a sitemap index?</title>
+      <link>http://localhost:1313/blog/2008-01-10-got-expressionengine-need-sitemap-index/</link>
+      <pubDate>Thu, 10 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-10-got-expressionengine-need-sitemap-index/</guid>
+      <description>If you have been developing web sites for a while you already undoubtedly know the importance of sitemaps. Most blog software, such as Wordpress, provide plugins to auto generate sitemaps, but I could not find one for ExpressionEngine so I am here to explain how to auto generate your own with ExpressionEngine.
+To create a simple sitemap for a SINGLE blog in ExpressionEngine you can follow the instructions explained here.</description>
+    </item>
+    
+    <item>
+      <title>How We Got Here</title>
+      <link>http://localhost:1313/blog/2008-01-02-how-we-got-here/</link>
+      <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2008-01-02-how-we-got-here/</guid>
+      <description>Much has changed on the Web since I created my first web site in 1995. If only I would have taken screenshots my first site (or any of the hundreds that came after). Oh the days of the simple HTML tags: H1, p, img, br, etc. No Javascript, no CSS, no tables that I remember. Now, over a decade later, there are so many technologies a web developer/designer can use! There are hundreds (thousands?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Link on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/link/</link>
+    <description>Recent content in Link on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright notice</copyright>
+    <lastBuildDate>Wed, 18 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Network Throttle for iOS Development</title>
+      <link>http://localhost:1313/2012/04/18/network-throttle-for-ios-development/</link>
+      <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/04/18/network-throttle-for-ios-development/</guid>
+      <description>All iOS developers must know about this handy-dandy tool by Mike Schrag:
+ speedlimit is a Leopard [works on Lion too] preference pane for limiting your network bandwidth to one of a couple different speeds—768k DSL, Edge, 3G, and Dialup. This is really handy for testing your iPhone app under normal Edge network conditions in the iPhone Simulator. The new version allows you to restrict the slowdown to only a specific set of hosts.</description>
+    </item>
+    
+    <item>
+      <title>Link Posts with Jekyll</title>
+      <link>http://localhost:1313/2012/04/03/link-posts-with-jekyll/</link>
+      <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/04/03/link-posts-with-jekyll/</guid>
+      <description>Now that I have Jekyll publishing automated, why not do link posts? For one, Jekyll does not support link posts out of the box. However, Tuan Anh figured out how to tweak Jekyll to support link posts: Posting Link Post in Jekyll by Tuan Anh Tran.
+This is the code I used to modify my post.html file (in the _layouts directory):
+ &amp;#123;&amp;#37; if page.link &amp;#37;&amp;#125; &amp;lt;h2&amp;gt;&amp;lt;a href=&#34;&amp;#123;&amp;#123; page.link &amp;#125;&amp;#125;&#34;&amp;gt;&amp;#123;&amp;#123; page.</description>
+    </item>
+    
+    <item>
+      <title>How to “View Source” from Safari on an iPad or iPhone</title>
+      <link>http://localhost:1313/2012/03/31/view-source-bookmarklet-ios/</link>
+      <pubDate>Sat, 31 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/03/31/view-source-bookmarklet-ios/</guid>
+      <description>How to “View Source” from Safari on an iPad or iPhone from Ole Michelsen:
+ Add this (or any other) page as a bookmark Then click here to see the bookmarklet code and Select All → Copy Now edit that same bookmark, paste the code you just copied into the URL and name it something like “View Source”  This will most certainly be used. Thanks Ole!</description>
+    </item>
+    
+    <item>
+      <title>How to find the hidden files on Mac OS X</title>
+      <link>http://localhost:1313/2012/03/29/how-to-find-hidden-files-osx/</link>
+      <pubDate>Thu, 29 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/03/29/how-to-find-hidden-files-osx/</guid>
+      <description>This has to be the best tip I have found sound far in 2012: How to find the hidden files on Mac OS X
+ The Mac OS X operating system hides important system files to protect your computer. This is a measure meant to prevent you from modifying files that shouldn&amp;rsquo;t be modified, or deleting files that your computer needs to run correctly. Occasionally, you may need to find a file that Mac OS X hides.</description>
+    </item>
+    
+  </channel>
+</rss>

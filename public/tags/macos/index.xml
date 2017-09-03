@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macos on Brandon Bohling</title>
+    <link>http://localhost:1313/tags/macos/</link>
+    <description>Recent content in Macos on Brandon Bohling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hazel and ImageOptim for Easy Image Optimizations</title>
+      <link>http://localhost:1313/blog/2013-03-02-hazel-and-imageoptim-for-easy-image-optimizations/</link>
+      <pubDate>Sat, 02 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013-03-02-hazel-and-imageoptim-for-easy-image-optimizations/</guid>
+      <description>ImageOptim is a fantastic utility to reduce the size of your images without impacting image quality1. I use it both for my web and iOS work, but it was not until today that I made it even better.
+My Old Workflow  Save whatever image I was working on to some folder Open ImageOptim Drag the image onto ImageOptim canvas ImageOptim does its work I move the optimized image to its final destination  My New Workflow  Save whatever image I was working on to an “optimize” folder Hazel automatically moves to an “optimized” folder Hazel automatically kicks off ImageOptim and it optimizes the image I move the optimized image to its final destination  My responsibilities went from four steps to two; a 50% reduction.</description>
+    </item>
+    
+    <item>
+      <title>Buy the MacBook Pro with Retina Display or new MacBook Air</title>
+      <link>http://localhost:1313/blog/2012-06-12-mbp-with-retina-display-or-new-mba/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-06-12-mbp-with-retina-display-or-new-mba/</guid>
+      <description>If you are lucky enough to be in the market for a new notebook, Apple just made your choice a lot more difficult. Last year I gave up my MacBook Pro and switched to the MacBook Air and have not regretted it one bit. I use my Air primarily for photography1 but from time-to-time I do use Final Cut Pro X to create small family videos. I still use a MacBook Pro for work which is a major bummer because it really isn&amp;rsquo;t any faster but feels like a giant brick.</description>
+    </item>
+    
+    <item>
+      <title>How to find the hidden files on Mac OS X</title>
+      <link>http://localhost:1313/blog/2012-03-29-how-to-find-hidden-files-osx/</link>
+      <pubDate>Thu, 29 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012-03-29-how-to-find-hidden-files-osx/</guid>
+      <description>This has to be the best tip I have found sound far in 2012: How to find the hidden files on Mac OS X
+ The Mac OS X operating system hides important system files to protect your computer. This is a measure meant to prevent you from modifying files that shouldn&amp;rsquo;t be modified, or deleting files that your computer needs to run correctly. Occasionally, you may need to find a file that Mac OS X hides.</description>
+    </item>
+    
+    <item>
+      <title>Final Cut Pro X on the MacBook Air: A Follow-Up</title>
+      <link>http://localhost:1313/blog/2011-10-30-fcpx-mba-follow-up/</link>
+      <pubDate>Sun, 30 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-10-30-fcpx-mba-follow-up/</guid>
+      <description>My post, Final Cut Pro X on a MacBook Air, has received a surprising amount of traffic. So I thought I would provide a brief follow-up that covers why I purchased FCP X and how it has been performing on my MacBook Air.
+FCP X vs. iMovie Like I mentioned before, I am no videographer and I probably have no real reason to spend $300 on video editing software. iMovie is incredibly simple to use and can make great videos fast, but it seemed hard to do simple tasks I wanted to do and lacked features I was after.</description>
+    </item>
+    
+    <item>
+      <title>Final Cut Pro X on a MacBook Air</title>
+      <link>http://localhost:1313/blog/2011-09-05-fcpx-mba/</link>
+      <pubDate>Mon, 05 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-09-05-fcpx-mba/</guid>
+      <description>When it comes to video editing I am a complete novice. A few supporting facts:
+ I have been a Vimeo Plus member since November 2007 yet I have only posted 65 videos. All have been posted with the simplest of tools: iMovie, iMovie for iOS, Vimeo for iOS, etc. I purchased Final Cut Pro X on July 2 and today was the first time I used it. Today I used about 0.</description>
+    </item>
+    
+    <item>
+      <title>Installing Jekyll on Mac OS X</title>
+      <link>http://localhost:1313/blog/2011-08-27-installing-jekyll-on-mac/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-08-27-installing-jekyll-on-mac/</guid>
+      <description>In March this year I once again changed blog engines I was using. I switched to Jekyll after reviewing all the usual (and unusual) suspects. I describe most of my reasons1 in my post, Text File Revolution so I won&amp;rsquo;t rehash again, however, I did want to write a little tutorial on how to get Jekyll up and running on your Mac2.
+Pre-Requisite: XCode The easiest way to get a hold of XCode is to download from the Mac App Store.</description>
+    </item>
+    
+    <item>
+      <title>Apps on MacBook Air 30 Days Later</title>
+      <link>http://localhost:1313/blog/2011-08-26-apps-30-days-later/</link>
+      <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-08-26-apps-30-days-later/</guid>
+      <description>In my previous post, Apps I will install on New MacBook Air, I highlight the apps that I intended on installing on my new MacBook Air. It has now been 30 days since I first laid hands on the new system, so what better time to report what I REALLY installed.
+Before Dropbox it could take a couple of days to get a new computer set up with all of your goodies.</description>
+    </item>
+    
+    <item>
+      <title>Apps I will install on New MacBook Air</title>
+      <link>http://localhost:1313/blog/2011-07-26-install-first/</link>
+      <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011-07-26-install-first/</guid>
+      <description>In a previous post, What Would You Buy First?, I highlight the apps I would buy first if I had to start all over today. In this post I will outline the apps I will be installing on a new MacBook Air that arrives today. One data point to note: I am cutting my drive space in half (to 256GB), so this list may be slightly different if it were a new iMac.</description>
+    </item>
+    
+  </channel>
+</rss>
