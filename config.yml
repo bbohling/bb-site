@@ -1,6 +1,6 @@
 ---
 # baseURL: "http://localhost:1313/"
-baseURL: "http://test.brandonbohling.com/"
+baseURL: "https://test.brandonbohling.com/"
 languageCode: "en-us"
 title: "Brandon Bohling"
 theme: "hugo_theme_pickles"
