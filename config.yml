@@ -6,7 +6,7 @@ title: "Brandon Bohling"
 theme: "hugo_theme_pickles"
 copyright: "&copy; Copyright notice"
 permalinks:
- posts: /posts/:title/
+ posts: /posts/:slug/
 paginate: 5
 
 menu:
@@ -46,6 +46,6 @@ params:
 #   contact: ""
 #   bio: "Living the dream"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle: "random stuff"
+  subtitle: "v46.11.0-rc.1"
   # Logo image. This is displayed ogp image.
   logo: "/path/to/logo"
