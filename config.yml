@@ -39,7 +39,7 @@ params:
   # Disqus shortname
   #disqus: ""
   # Google Analytics API key.
-  # ga_api_key: "Your Google Analytics tracking id"
+  ga_api_key: "UA-6588573-1"
 #   author: "Brandon Bohling"
 #   authorwebsite: "brandonbohling.com"
 #   avatar: "/path/to/avatar"
