@@ -9,6 +9,6 @@ categories:
 draft: false
 ---
 
-![Sunset in Suncadia by Brandon Bohling](https://drscdn.500px.org/photo/227045855/m%3D900/v2?webp=true&sig=8285710af6ea4a2f2ca96b63764c88029313495b08539302700d689b0561b406)
+![Sunset in Suncadia by Brandon Bohling](https://farm5.staticflickr.com/4437/36222953604_e622862644_k.jpg)
 
 This weekend I ditched Jekyll (again) as my preferred tool for my site. It truly is comical how many times I have switched blogging tools. I have been blogging since 2001 and have switched tools dozens of times. I still have _most_ of my posts too, so I hope to compile all my content here eventually. More importantly though, I want to start writing more regularly again. And the only way that is going to happen is if I remove as much friction as possible including perfection. So excuse the design imperfections and the inevitable grammar mistakes as I ramp back up. 
