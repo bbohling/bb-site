@@ -18,7 +18,7 @@ Like speakers to an audiophile, the grinder is to a barista…I never realized t
 
 If you are like me, this was a bit surprising. While I never wanted a cheap grinder, I didn’t realize it was more important than the espresso machine. The Rocky is a great grinder, not one of the top ones for the home barista, but not far away either. But fear not, with one simple trick you can give your Rocky a little help that will really improve your espressos…just watch this video.
 
-{{< YouTube vgEsWqG3Zqw >}}
+{{< youtube vgEsWqG3Zqw >}}
 
 Trust me, try this trick. As you are getting coffee grounds into your portafilter, mix it up a bit with chopsticks (or similar) and you will notice a positive difference in your shots. I was completely amazed when I first did this.
 
