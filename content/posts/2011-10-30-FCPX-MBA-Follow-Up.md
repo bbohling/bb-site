@@ -35,8 +35,6 @@ Even though I have a 2010 MacBook Pro and a 2009 iMac I still do all my video ed
 
 The outcome:
 
-<iframe src="https://player.vimeo.com/video/30880811?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="800" height="450" frameborder="0"></iframe>
-
 {{< vimeo 30880811 >}}
 
 My experience is no anomaly either. @ElkGroveCA shared [this link](http://themacscreencastguy.squarespace.com/blog/2011/8/3/real-life-macbook-air-11-benchmark-video-encoding.html) via Twitter which benchmarks video encoding on a Mac Pro, MacBook Air (2011), Mac Mini, and a MacBook Air (2010) and the MacBook Air (2011) was not too far off from the Mac Pro...amazing!
