@@ -21,7 +21,7 @@ menu:
       name: Snippets
       url: https://micro.brandonbohling.com
 params:
-  copyrightYear: "2019"
+  copyrightYear: "2020"
   # Social accounts. Link to these accounts are displayed in the header and
   # footer
   twitter: "ebohling"
