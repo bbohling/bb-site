@@ -16,7 +16,7 @@ There is no other consumer espresso machine that has a bigger customer base nor 
 
 In my previous post, [Taming Rancilio Rocky][rocky], I mentioned how important the grinder is to making exceptional espressos. Another variable that is so very important is (consistent) brewing temperature…which Miss Silvia (out of the box) does not do very well on her own. Again, it’s possible to train Miss Silvia to behave so not all is lost. I have read dozens and dozens of in-depth tutorials on [temperature surfing][temperature] Miss Silvia, but I think most will be satisfied just following the simpler instructions in this video…
 
-<iframe title="YouTube video player" width="800" height="630" src="http://www.youtube.com/embed/QhxvDusY3jk?rel=0" frameborder="0" allowfullscreen></iframe>
+{{< YouTube QhxvDusY3jk >}}
 
 The key (at least for me) was to quickly let out some hot (steaming) water before pulling the shot. Very simple, quick step, but until I watched the video had no idea.
 
