@@ -105,4 +105,4 @@ I believe, for me, it comes down to this: Brandon Bohling is my true professiona
 
 ### Final Thought
 
-Having gone through this process, I find it extremely interesting how similar it is to my role as an Enterprise Architect.
+Having gone through this process, I found it extremely interesting how similar it is to my role as an Enterprise Architect.
