@@ -1,8 +1,9 @@
 ---
-categories: photography
+categories:
+  - photography
 tags:
-    - photography
-    - event
+  - photography
+  - event
 comments: false
 date: 2013-07-30T00:00:00Z
 published: false

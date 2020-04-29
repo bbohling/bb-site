@@ -14,13 +14,15 @@ Now that I have [Jekyll publishing automated][auto], why not do link posts? For 
 
 This is the code I used to modify my post.html file (in the _layouts directory):
 
-<pre>
-&#123;&#37; if page.link &#37;&#125;  
-&lt;h2&gt;&lt;a href="&#123;&#123; page.link &#125;&#125;"&gt;&#123;&#123; page.title &#125;&#125;&lt;/a&gt;&lt;/h2&gt;  
-&#123;&#37; else &#37;&#125;  
-&lt;h2&gt; &#123;&#123; page.title &#125;&#125; &lt;/h2&gt;  
-&#123;&#37; endif &#37;&#125;
-</pre>
+
+```
+{% if page.link %}
+<h2><a href=”{{ page.link }}">{{ page.title }}</a></h2>
+{% else %}
+<h2> {{ page.title }} </h2>
+{% endif %}
+```
+
 
 **NOTE**: I had to use `page.link` where Tuan Anh used: `page.post-link` (in [their code][gist]).
 

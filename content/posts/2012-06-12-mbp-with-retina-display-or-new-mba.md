@@ -1,7 +1,8 @@
 ---
-categories: technology
+categories:
+  - technology
 tags:
-    - macos
+  - macos
 date: 2012-06-12T00:00:00Z
 title: Buy the MacBook Pro with Retina Display or new MacBook Air
 aliases: /technology/mbp-with-retina-display-or-new-mba/

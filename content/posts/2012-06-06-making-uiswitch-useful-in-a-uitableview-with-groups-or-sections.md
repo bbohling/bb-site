@@ -1,8 +1,9 @@
 ---
-categories: technology
+categories:
+  - technology
 tags:
-    - coding
-    - iOS
+  - coding
+  - iOS
 date: 2012-06-06T00:00:00Z
 title: Making UISwitch Useful in a UITableView with Groups or Sections
 aliases: /technology/making-uiswitch-useful-in-a-uitableview-with-groups-or-sections/

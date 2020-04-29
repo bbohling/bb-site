@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "hugo server -D",
+    "build": "hugo",
+    "update-themes": "git submodule foreach git pull origin master"
+  }
+}

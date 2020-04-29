@@ -1,8 +1,9 @@
 ---
-categories: photography
+categories:
+  - photography
 tags:
-    - canon
-    - photography
+  - canon
+  - photography
 date: 2012-06-30T00:00:00Z
 title: Redefining My Photography
 aliases: /2012/06/30/redefining-my-photography/

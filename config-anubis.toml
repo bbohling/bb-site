@@ -1,0 +1,49 @@
+
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Brandon Bohlig"
+theme = "anubis"
+paginate = 5
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "Brandon Bohling"
+
+[params]
+   author = "Brandon Bohling"
+   description = "words words words"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Archive"
+    identifier = "archive"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    name = "Snippets"
+    identifier = "snippets"
+    url = "https://micro.brandonbohling.com"
+    weight = 4
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+# series = "series"
