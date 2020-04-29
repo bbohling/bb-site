@@ -21,7 +21,7 @@ came across this video from one of my favorite tutorial websites,
 [Common Craft](http://www.commoncraft.com/ "Common Craft"), that I just
 had to share.
 
-<iframe title="YouTube video player" width="960" height="750" src="http://www.youtube.com/embed/0wZ5K0eG5wk?rel=0" frameborder="0" allowfullscreen></iframe>
+{{< youtube 0wZ5K0eG5wk >}}
 
 For anyone that has been doing photography and an active participant of
 the social web lately this will not be anything new, but it is so well

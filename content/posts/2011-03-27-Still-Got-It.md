@@ -11,7 +11,7 @@ aliases:
     - /travel/Still-Got-It/
 ---
 
-<iframe src="http://player.vimeo.com/video/21569573" width="850" height="478" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{{< vimeo 21569573 >}}
 
 Friday at 6:00 PM we decided to see if there were any rooms available at the [Surfsand Resort][ss] in Cannon Beach. This was while we were still at Bryce's swimming lessons. By 8:10 PM Denise was checking us into our room at the resort. Yeah, even with a 4 year old...we still got it!
 
