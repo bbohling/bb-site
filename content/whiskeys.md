@@ -16,10 +16,12 @@ Oddly, I started my journey in this line of liquors with scotch and have since s
 * Blanton's Single Barrel Bourbon
 * Nikka Coffey Grain Whisky
 * Nikka Whisky from the Barrel
+* Basil Hayden's Dark Rye (good value too)
 
 ## Favorite Ryes
 
 * Whistle Pig Rye
+* Basil Hayden's Dark Rye
 * Sazerac Rye
 
 ## Great Value
@@ -46,7 +48,7 @@ Obviously this one will likely change the most as I get opportunities to taste m
 
 ## Cocktails
 
-If I'm making a Kentucky Mule, Old Fashion, or Sazerac these are typically my go tos: 
+If I'm making a Kentucky Mule, Old Fashion, or Sazerac these are typically my go tos:
 
 * Basil Hayden's
 * Buffalo Trace
