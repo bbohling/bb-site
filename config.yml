@@ -25,7 +25,7 @@ taxonomies:
   tag: tags
 
 params:
-  copyrightYear: "2020"
+  copyrightYear: "2021"
   # Social accounts. Link to these accounts are displayed in the header and
   # footer
   twitter: "ebohling"
