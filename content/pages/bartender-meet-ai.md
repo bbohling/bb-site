@@ -6,7 +6,7 @@ draft: false
 description: "How I used AI to help clean out my liquor cabinet."
 ---
 
-blah blah blah
+I recently found myself staring at my liquor cabinet, which was stocked with a variety of spirits and mixers, but I had no idea what to make. Being the nerd I am, instead of browsing through countless cocktail recipes, I decided to turn to AI for help.
 
 This was the question I asked ChatGPT:
 
