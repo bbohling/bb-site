@@ -3,7 +3,6 @@ categories:
     - technology
     - photography
 date: 2012-05-24T00:00:00Z
-published: true
 tags:
     - canon
     - iphone

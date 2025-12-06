@@ -1,58 +1,47 @@
 ---
-baseURL: "http://localhost:1313/"
-# baseURL: "https://test.brandonbohling.com/"
+baseURL: "https://brandonbohling.com/"
 languageCode: "en-us"
 title: "Brandon Bohling"
-theme: "anubis"
+theme: "bohling"
 copyright: "&copy; Copyright notice"
 permalinks:
   posts: /posts/:slug/
-paginate: 5
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github-dark
 
 menu:
   main:
     - identifier: posts
       name: Posts
       url: /posts/
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
+      weight: 20
     - identifier: snippets
       name: Snippets
-      url: https://micro.brandonbohling.com
+      url: https://micro.brandonbohling.com/
+      weight: 30
 taxonomies:
   category: categories
   tag: tags
 
 params:
-  copyrightYear: "2022"
-  # Social accounts. Link to these accounts are displayed in the header and
-  # footer
-  twitter: "ebohling"
-  facebook: "brandon.bohling"
-  # instagram: "Your Instagram username"
-  # googleplus: "Your Google+ user id"
-  github: "bbohling"
-  # npm: "Your npm username"
-  # codepen: "Your CodePen username"
-  #dribbble: "Your Dribbble username"
-  fivehundredpx: "bbohling" # 500px
-  #flickr: "Your Flickr username"
-  #pinterest: "Your Pinterest username"
-  #tumblr: "Your Tumblr username"
-  vimeo: "ebohling"
-  #youtube: "Your YouTube username"
-  linkedin: "brandonbohling"
-  # Disqus shortname
-  #disqus: ""
-  # Google Analytics API key.
-  ga_api_key: "UA-6588573-1"
+  description: "Thoughts on technology, photography, and life from some guy living in the Pacific Northwest."
   author: "Brandon Bohling"
-  #   authorwebsite: "brandonbohling.com"
-  #   avatar: "/path/to/avatar"
-  #   contact: ""
-  #   bio: "Living the dream"
-  # Short subtitle/tagline. This is displayed in the header.
-  subtitle: "v46.11.0-rc.1"
-  # Logo image. This is displayed ogp image.
-  logo: "/path/to/logo"
+  twitter: "ebohling"
+  github: "bbohling"
+  linkedin: "brandonbohling"
+  vimeo: "ebohling"
+
+services:
+  googleAnalytics:
+    id: "UA-6588573-1"

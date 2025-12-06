@@ -5,7 +5,6 @@ tags:
     - coding
 comments: false
 date: 2013-08-01T00:00:00Z
-published: true
 title: Parallels and Visual Studio Issue
 aliases: 
     - /technology/parallels-and-visual-studio-issue/

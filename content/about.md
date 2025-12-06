@@ -2,7 +2,9 @@
 title: "About"
 date: 2017-08-24
 draft: false
-menu: main
+menu:
+  main:
+    weight: 100
 ---
 
 Straight from [LinkedIn](https://www.linkedin.com/in/brandonbohling):

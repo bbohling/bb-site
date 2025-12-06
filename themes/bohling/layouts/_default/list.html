@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="list-page">
+    <header class="list-header">
+        <h1 class="list-title">{{ .Title }}</h1>
+        {{ with .Description }}
+            <p class="list-description">{{ . }}</p>
+        {{ end }}
+    </header>
+
+    {{ if .Content }}
+    <div class="list-content">
+        {{ .Content }}
+    </div>
+    {{ end }}
+
+    <section class="posts-list">
+        {{ $paginator := .Paginate .Pages }}
+        {{ range $paginator.Pages }}
+            <article class="post-preview{{ if .Draft }} is-draft{{ end }}">
+                <header>
+                    <h3 class="post-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }}<span class="draft-badge">Draft</span>{{ end }}
+                    </h3>
+                    <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </time>
+                    {{ with .Params.categories }}
+                        <div class="post-categories">
+                            {{ range . }}
+                                <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="category-tag">{{ . }}</a>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </header>
+                {{ if .Summary }}
+                    <p class="post-summary">{{ .Summary | plainify | truncate 200 }}</p>
+                {{ end }}
+            </article>
+        {{ end }}
+    </section>
+
+    {{ partial "pagination.html" .Paginator }}
+</div>
+{{ end }}

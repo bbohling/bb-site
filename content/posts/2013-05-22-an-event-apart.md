@@ -5,7 +5,6 @@ tags:
     - event
 comments: false
 date: 2013-05-22T00:00:00Z
-published: true
 title: An Event Apart
 aliases: /technology/an-event-apart/
 ---

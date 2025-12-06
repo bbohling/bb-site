@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="terms-page">
+    <header class="list-header">
+        <h1 class="list-title">{{ .Title }}</h1>
+    </header>
+
+    <div class="terms-list">
+        {{ range .Pages.ByTitle }}
+            <a href="{{ .Permalink }}" class="term-item">
+                <span class="term-name">{{ .Title }}</span>
+                <span class="term-count">{{ len .Pages }}</span>
+            </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

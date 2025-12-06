@@ -5,7 +5,6 @@ tags:
     - coding
 comments: false
 date: 2013-06-13T00:00:00Z
-published: true
 title: Android's Drop Down Bug
 aliases:
     - /technology/androids-drop-down-bug/

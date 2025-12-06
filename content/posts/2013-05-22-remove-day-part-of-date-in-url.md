@@ -5,7 +5,6 @@ tags:
     - coding
 comments: false
 date: 2013-05-22T00:00:00Z
-published: true
 title: Remove Day Part of Date in URL
 aliases: /technology/remove-day-part-of-date-in-url/
 ---

@@ -3,7 +3,6 @@ categories:
     - technology
 date: 2012-03-31T00:00:00Z
 external-url: http://ole.michelsen.dk/blog/view-source-on-the-ipad-and-iphone/
-published: true
 tags:
     - ios
     - coding

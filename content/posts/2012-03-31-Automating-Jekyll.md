@@ -2,7 +2,6 @@
 categories:
     - technology
 date: 2012-03-31T00:00:00Z
-published: true
 tags:
     - blogging
     - workflow

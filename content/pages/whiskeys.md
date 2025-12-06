@@ -1,7 +1,9 @@
 ---
 title: "Whiskeys, Whiskies, Ryes and Bourbons"
 date: 2020-06-12
+lastmod: 2025-12-05
 draft: false
+description: "My recommendations for whiskeys, ryes, and bourbons at various price points."
 ---
 
 Oddly, I started my journey in this line of liquors with scotch and have since switched. I believe most people _graduate_ into scotch, but maybe I'm wrong or just an oddball. Either way, below is a breakdown of some of my current recommendations. Please let me know what your favorites are so I can continue to update my list.

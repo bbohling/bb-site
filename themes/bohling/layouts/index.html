@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="home-intro">
+    {{ with .Site.Params.description }}
+        <p class="intro-text">{{ . | markdownify }}</p>
+    {{ end }}
+</div>
+
+<section class="posts-list">
+    <h2 class="section-title">Recent Posts</h2>
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+    {{ range $paginator.Pages }}
+        <article class="post-preview">
+            <header>
+                <h3 class="post-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>
+                <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+                {{ with .Params.categories }}
+                    <div class="post-categories">
+                        {{ range . }}
+                            <a href="{{ "categories/" | absURL }}{{ . | urlize }}/" class="category-tag">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                {{ end }}
+            </header>
+            {{ if .Summary }}
+                <p class="post-summary">{{ .Summary | plainify | truncate 200 }}</p>
+            {{ end }}
+        </article>
+    {{ end }}
+</section>
+
+{{ partial "pagination.html" .Paginator }}
+{{ end }}

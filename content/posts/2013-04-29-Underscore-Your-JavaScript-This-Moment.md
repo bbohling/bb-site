@@ -5,7 +5,6 @@ tags:
     - coding
     - javascript
 date: 2013-04-29T00:00:00Z
-published: true
 title: Underscore Your JavaScript This Moment
 aliases: /technology/Underscore-Your-JavaScript-This-Moment/
 ---

@@ -5,7 +5,6 @@ tags:
     - coding
 comments: false
 date: 2013-08-16T00:00:00Z
-published: true
 title: Forgotten Step
 aliases:
     - /technology/forgotten-step/

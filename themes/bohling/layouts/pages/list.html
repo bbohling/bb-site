@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="pages-index">
+    <header class="list-header">
+        <h1 class="list-title">{{ .Title }}</h1>
+        {{ with .Content }}
+            <div class="list-intro">{{ . }}</div>
+        {{ end }}
+    </header>
+
+    <div class="pages-grid">
+        {{ range .Pages }}
+            <a href="{{ .Permalink }}" class="page-card">
+                <h2 class="page-card-title">{{ .Title }}</h2>
+                {{ with .Description }}
+                    <p class="page-card-description">{{ . }}</p>
+                {{ else }}
+                    {{ with .Summary }}
+                        <p class="page-card-description">{{ . | plainify | truncate 120 }}</p>
+                    {{ end }}
+                {{ end }}
+            </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

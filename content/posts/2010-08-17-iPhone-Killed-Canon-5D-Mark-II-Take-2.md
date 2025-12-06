@@ -3,7 +3,6 @@ categories:
     - technology
     - photography
 date: 2010-08-17T00:00:00Z
-published: true
 tags:
     - technology
     - photography

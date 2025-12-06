@@ -3,7 +3,6 @@ categories:
     - technology
 date: 2012-04-03T00:00:00Z
 link: http://tuananh.us/articles/posting-link-post-in-jekyll.html
-published: true
 tags:
     - blogging
 title: Link Posts with Jekyll

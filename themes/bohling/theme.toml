@@ -1,0 +1,13 @@
+name = "Bohling"
+license = "MIT"
+licenselink = "https://github.com/bbohling/bb-site/blob/master/LICENSE"
+description = "A minimal, elegant theme for Brandon Bohling's personal site"
+homepage = "https://brandonbohling.com"
+min_version = "0.120.0"
+
+[author]
+  name = "Brandon Bohling"
+  homepage = "https://brandonbohling.com"
+
+[params]
+  description = "A custom Hugo theme with modern design"

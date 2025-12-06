@@ -5,7 +5,6 @@ tags:
     - macOS
 comments: false
 date: 2013-05-22T00:00:00Z
-published: true
 title: OSX Disk Images
 aliases: /technology/OSX-Disk-Images/
 ---
