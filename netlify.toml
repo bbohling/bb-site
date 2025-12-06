@@ -2,8 +2,17 @@
   command = "hugo"
   publish = "public"
 
+[build.environment]
+  HUGO_VERSION = "0.152.2"
+
+[context.production]
+  image = "ubuntu24.04"
+
 [context.production.environment]
   HUGO_VERSION = "0.152.2"
+
+[context.deploy-preview]
+  image = "ubuntu24.04"
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.152.2"
