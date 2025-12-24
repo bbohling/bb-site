@@ -1,0 +1,22 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+
+<!-- smugmug sizes: X3Large, Medium, Large, XLarge -->
+<figure>
+  <img
+  src="{{ .Get "src" }}"
+  srcset="
+    {{ .Get "sm" }} 640w,
+    {{ .Get "md" }} 1024w,
+    {{ .Get "lg" }} 1600w
+  "
+  sizes="(max-width: 768px) 100vw, 800px"
+  alt="{{ .Get "alt" }}"
+  loading="lazy"
+  decoding="async"
+/>
+  {{ with $caption }}
+    <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
