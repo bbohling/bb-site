@@ -10,7 +10,11 @@
     <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ .Site.Title }}">
 
     {{- $style := resources.Get "css/main.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+    {{/* RelPermalink (not Permalink): with an absolute URL the stylesheet is
+         cross-origin on any host other than baseURL (e.g. *.pages.dev
+         previews), and integrity= on a cross-origin no-CORS request makes
+         browsers block the stylesheet entirely. */}}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
