@@ -1,0 +1,50 @@
+name: Build and deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# Avoid overlapping deploys racing each other.
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history: HUGO_ENABLEGITINFO needs .GitInfo / lastmod dates.
+          fetch-depth: 0
+
+      # Netlify built this site with Hugo 0.85.0; 0.152.0 matches the version
+      # noted in netlify.toml and the modern pagination syntax in config.yml.
+      # If output regresses, pin back toward 0.85.0.
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.152.0"
+          extended: true
+
+      - name: Build site
+        run: hugo
+        env:
+          HUGO_ENV: production
+          HUGO_ENABLEGITINFO: "true"
+
+      # The Pages project itself (plus custom domain and DNS) is owned by
+      # Terraform in the cf-infra repo — this workflow only deploys builds.
+      # --branch=main marks the deployment as production (it names the Pages
+      # project's production_branch, NOT this repo's git branch — the repo
+      # uses master); custom domains serve production deployments only.
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=brandonbohling --branch=main
