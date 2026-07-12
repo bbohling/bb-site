@@ -2,7 +2,7 @@ name: Build and deploy to Cloudflare Pages
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
 # Avoid overlapping deploys racing each other.
@@ -40,8 +40,8 @@ jobs:
       # The Pages project itself (plus custom domain and DNS) is owned by
       # Terraform in the cf-infra repo — this workflow only deploys builds.
       # --branch=main marks the deployment as production (it names the Pages
-      # project's production_branch, NOT this repo's git branch — the repo
-      # uses master); custom domains serve production deployments only.
+      # project's production_branch); custom domains serve production
+      # deployments only.
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:
