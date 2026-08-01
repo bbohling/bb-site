@@ -42,7 +42,7 @@ If interested, I posted a higher-res version of the above [photo on Flickr][flic
 [hood]: http://en.wikipedia.org/wiki/Hood_River,_Oregon "Hood River Oregon"
 [riverdell]: https://www.facebook.com/Riverdell "Riverdell Vacation Rental"
 [superD]: http://www.oregonsuperd.com "Oregon Super D Series in Hood River"
-[video]: http://vimeo.com/ebohling/biker "Bryce Bohling - Biker in the Making"
+[video]: https://youtu.be/WwC_MIfyaR4 "Bryce Bohling - Biker in the Making"
 [lostlake]: http://lostlakeresort.org/ "Lost Lake"
 [museum]: http://www.maryhillmuseum.org/ "Maryhill Museum of Art in Washington"
 [goldendale]: http://www.perr.com/gosp.html "Goldendale Observatory State Park"
